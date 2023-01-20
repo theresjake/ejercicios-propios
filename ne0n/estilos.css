@@ -1,0 +1,52 @@
+body {
+	color: #DDD;
+	background-color: #222;
+}
+
+h1 {
+	letter-spacing: 5px;
+	font-family: 'Island Moments', cursive;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 200px;
+}
+
+.morado {
+	text-shadow: 0 0 16px #c1f,
+	0 0 12px #c1f,0 0 8px #c1f, 0 0 4px #c1f, 0 0 2px #FFF;
+	animation: parpadear 1.8s infinite backwards alternate;
+}
+
+.verde {
+	text-shadow: 0 0 16px #1F1,
+	0 0 12px #1F1,0 0 8px #1F1, 0 0 4px #1F1, 0 0 2px #FFF;
+	animation: parpadear 1.2s infinite backwards alternate;
+}
+
+.amarillo {
+	text-shadow: 0 0 16px #FD1,
+	0 0 12px #FD1,0 0 8px #FD1, 0 0 4px #FD1, 0 0 2px #FFF;
+	animation: parpadear 2s infinite backwards alternate;
+}
+
+
+
+@keyframes parpadear {
+	to {
+		color: #666;
+		text-shadow: none;
+	}
+}
+
+
+span:hover {
+	color: #666;
+	text-shadow: none;
+}
+
+span:active {
+	color: #CCC;
+	animation: parpadear .1s;
+}
+
+

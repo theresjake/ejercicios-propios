@@ -1,0 +1,94 @@
+html {
+	scroll-behavior: smooth;
+	z-index: 10;
+}
+
+
+
+body {
+	margin: 0;
+}
+
+
+
+
+[src="background.jpg"] {
+	padding: 0;
+	position: fixed;
+	top: 0;
+	z-index: -1;
+	width: 100%;
+}
+
+
+
+
+main {
+	display: flex;
+}
+
+
+
+.menu {
+	background-color: #4447;
+	padding: 0px, 10px, 10px;
+	font-family: 'Poppins', sans-serif;
+	backdrop-filter: blur( 7.5px );
+	-webkit-backdrop-filter: blur( 7.5px );
+}
+
+
+
+
+/*.menu-title {
+	margin: 20px;
+}*/
+
+
+
+
+.menu ul, .menu-title {
+	list-style: none;
+	margin: 20px;
+	padding: 0;
+}
+
+
+
+.menu-content {
+	color: #EEE;
+	position: sticky;
+	top: 10px;
+}
+
+
+
+.menu a {
+	text-decoration: none;
+	color: #EEE;
+	font-weight: bold;
+}
+
+
+
+.menu li {
+	white-space: nowrap;
+	margin-top: 12px;
+}
+
+
+
+.content {
+	color: #EEE;
+	text-align: justify;
+	padding: 25px;
+}
+
+
+
+p {
+	font-size: 16px;
+}
+
+
+
